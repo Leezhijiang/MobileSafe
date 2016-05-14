@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="功能列表"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <com.example.mobilesafe.ui.FocusedTextView
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机卫士，保证您的手机安全,无冗余代码，无后台程序，手机卫士，干净高效。" 
+        android:textSize="18sp"/>
+
+    <GridView
+        android:id="@+id/gd_home_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</LinearLayout>
